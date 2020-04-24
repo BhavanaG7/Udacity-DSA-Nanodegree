@@ -1,0 +1,24 @@
+Search in a Rotated Sorted Array
+--------------------------------
+
+Explanation:
+We can solve this problem by using Binary Search approach.
+If the array is not rotated then in sorted array the element at the left is smaller then element towards right.
+ex: 1 2 3 4 5
+1<5
+
+If the array is Rotated Sorted Array then the element towards left is greater then element towards right.
+ex:3 4 5 1 2
+3>2
+
+for this problem we can consider 4 cases:
+1.Left ascending and target in left
+2.Right ascending and target in right
+3.Left ascending but target in right
+4.Right ascending but target in left
+
+Time Complexity:O(log(n))
+->Since, binary search halves the input set in each iteration.
+
+Space Complexity:O(1)
+-> since, the algorithm doesn't take any extra space it has constant Complexity.

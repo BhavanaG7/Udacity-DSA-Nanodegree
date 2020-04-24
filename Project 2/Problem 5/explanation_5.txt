@@ -1,0 +1,18 @@
+Blockchain
+--------------------------------------
+
+Explanation:
+this problem is based on creation of linked list.
+I have developed some methods for linkedlist like:
+search,append,size and to convert the blockchain to list.
+
+Time Complexity:
+---------------
+append:O(1)
+search:O(n)
+size:O(n)
+to_list:O(n)
+
+Space Complexity:O(n) 
+----------------
+where n = length of block chain.

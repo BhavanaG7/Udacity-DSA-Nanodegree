@@ -1,0 +1,32 @@
+Union and Intersection of Two Linked Lists
+--------------------------------------
+
+Explanation:
+
+Dat Structure: Python Set 
+
+Union Function: 
+In union function I have used 3 pointers 2 for iterating over 2 linked list and 1 pointer to iterate over the union_list to build list having union of two linked list.
+To ensure that no elements are repeated have used Python set.
+
+Intersection Function:
+In union function I have used 3 pointers 2 for iterating over 2 linked list to form a set and 1 pointer to iterate over the intersection_list.
+Here we first convert two linked list to two sets. then we check for the common elements in both the sets by iterating over them and adding the common element into the new linkedlist intersection_list.
+
+
+Time Complexity:
+----------------
+Since,the number of iteration is equal to legth of both the linked list.
+
+union(linkedlist1,linkedlist2):O(|len(linkedlist1)|+|len(linkedlist2)|)
+
+intersection(linkedlist1,linkedlist2):O(|len(linkedlist1)|+|len(linkedlist2)|)
+
+Space Complexity:
+----------------
+union(linkedlist1,linkedlist2):O(|len(linkedlist1)|+|len(linkedlist2)|)
+
+intersection(linkedlist1,linkedlist2):O(|len(linkedlist1)|+|len(linkedlist2)|)
+
+since,in worst case all the elements in both the lists are different and the space occupied is O(|len(linkedlist1)|+|len(linkedlist2)|).
+In some case all the elements are unique and they end up in empty list for intersection.

@@ -1,0 +1,14 @@
+Rearrange Array Elements
+------------------------
+
+Explanation:
+after observation we can identify that the output is in the form of alternative numbers after the array is sorted in descending order
+
+so the steps that we can use to solve this problem is to use heap sort to sort the Elements and pop the elements from the max heap.
+
+Time Complexity:O(NLogN)
+Heapifying the array takes O(nlog n).
+Pop operation takes O(log n)and creating the output takes O(n) resulting in O(nlog n).
+
+Space Complexity: O(n)
+The max heap creates a new array of size n.

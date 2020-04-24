@@ -1,0 +1,64 @@
+Project 1:
+==========
+
+Unscramble Computer Science Problems:
+-------------------------------------
+
+1.Task0:
+========
+Time  Complexity: O(1)
+Space Complexity: O(1)
+
+->Time  Complexity: O(1), since we are just accessing an element from the list.
+->Space Complexity: O(1), since we are just accessing an element and not allocating any extra memory space.
+
+---------------------------------------------------------------------------------------------------------
+
+2.Task1:
+========
+Time  Complexity: O(n)
+Space Complexity: O(n)
+
+where n:'number of elements'
+
+->Time  Complexity: O(n), since we are traversing through 'n' elements in the list.
+->Space Complexity: O(n), since we have stored 'n' elements in set.
+
+---------------------------------------------------------------------------------------------------------
+
+3.Task2:
+========
+Time  Complexity: O(n)
+Space Complexity: O(n)
+
+where n:'number of elements'
+
+->Time  Complexity: O(n), since we are traversing through 'n' elements in the list.
+->Space Complexity: O(n), since we have stored 'n' elements in hash table.
+
+---------------------------------------------------------------------------------------------------------
+
+4.Task3:
+========
+Time  Complexity: O(n KlogK)
+Space Complexity: O(n)
+
+where n:'number of elements'
+      k:'length of list'
+
+->Time  Complexity: O(n KlogK), 'klogk' for sorting operation || 'n' for traversing the list using for loop
+->Space Complexity: O(n), since we have stored 'n' elements in list
+
+---------------------------------------------------------------------------------------------------------
+5.Task4:
+========
+Time  Complexity: O(n KlogK)
+Space Complexity: O(n)
+
+where n:'number of elements'
+      k:length of list
+
+->Time  Complexity: O(n KlogK), 'klogk' for sorting operation | 'n' for traversing the list using for loop
+->Space Complexity: O(n), since we have stored 'n' elements in list
+
+---------------------------------------------------------------------------------------------------------

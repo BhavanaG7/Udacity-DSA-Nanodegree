@@ -1,0 +1,17 @@
+Active Directory
+--------------------------------------
+
+Explanation:
+In this program,first we check if the user is in group if so we True else we return False.
+then we make the recurssive call for the function.
+
+Time Complexity:O(g*u)
+---------------
+where, g-number of groups
+       u-number of users
+since,time complexity depends on the number of groups and also number of users.
+
+Space Complexity:O(r)
+----------------
+r-number of returns the function
+since it depends on the number of returns from the recurssive call of the function.

@@ -1,0 +1,18 @@
+Huffman Coding
+--------------------------------------
+
+Explanation:
+-----------
+for this problem i have contructed class:
+1.Node-contains a function which is used to combine two nodes together by using them as the leafs of a new node.
+2.Queue-cointains function to sort and step function to fuse two nodes.
+3.Tree-contains binary_generator to generate binary value and _add_binary_code function to change a function from node.char to binary value and returns it.
+4.HuffmanEncoder-this class contains all method to encode and decode the string.
+
+Time Complexity:O(k*nlogn)
+----------------
+since,the time complexity for sort() function is O(nlogn) and k is maximum length of codeword.
+
+Space Complexity:O(n)
+-----------------
+where n-size of the employed alphabet.

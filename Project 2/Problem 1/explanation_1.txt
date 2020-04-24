@@ -1,0 +1,20 @@
+Least Recently Used Cache
+--------------------------------------
+
+Explanation:
+Data Structure: OrderedDict(Dictionary) 
+The advantage of using OrderedDict is that it maintains the order in which values are inserted based on the key.
+
+get Function: In this function first I pop the value based on the passed key which returns the value of the corresponding key.
+then I insert that value back to the dictionary and return value for that key.
+
+set Function:
+1.here, first I check whether the capacity is 0,if it is 0 then I cannot add the value.
+2.Then I check whether the key is already present if the check is alredy present then I just replace the value
+3.If the key is not present and if the cache is not full then I just push the key value pair but if the cache is full I just remove the first element which I have added before and I add the new pair.
+
+Time Complexity:O(1)
+Since, I have used python dictionary the lookup time is O(1).
+
+Space Complexity:O(n)
+since, the cache can hold element upto capacity that is mentioned.

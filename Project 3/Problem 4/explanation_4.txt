@@ -1,0 +1,14 @@
+Dutch National Flag Problem
+---------------------------
+
+Explanation:
+this problem can be solved using the below technique:
+if u encounter 1 don't change increment mid.
+if u encounter 0 swap with element that is towards left of 1.
+if u encounter 2 swap with element that is towards right of 1.
+
+Time Complexity: O(n)
+->The array is iterated through once.
+
+Space Complexity: O(1)
+->Sorting is done in place.

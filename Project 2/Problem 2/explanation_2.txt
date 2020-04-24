@@ -1,0 +1,20 @@
+File Recursion
+--------------------------------------
+
+Explanation:
+At first we check for the suffix if it is empty string we return empty list.
+then we make a recursive call based on visit to each folder, if the file with suffix specified is not found then we go deeper through each level of the folder.
+and I have also used for loop to check whether it is file or folder.
+
+Time Complexity:O(n*d)
+----------------
+where,n-number of directories
+      d-depth of directory.
+based on the iteration that is performed.
+
+Space Complexity:O(r)
+-----------------
+r-number of returns from the function.
+since, the space complexity depends on the number of returns from function.
+
+

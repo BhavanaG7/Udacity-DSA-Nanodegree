@@ -1,0 +1,12 @@
+Finding the Square Root of an Integer:
+--------------------------------------
+
+Explanation:
+This problem can be solved by using binary search appoarch.
+In this problem i have used two pointers using which i can find the middle value and reduce the number of iterations everytime.
+
+Time Complexity:O(log(n))
+->Since, binary search halves the input set in each iteration.
+
+Space Complexity:O(1)
+-> since, the algorithm doesn't take any extra space it has constant Complexity.

@@ -1,0 +1,11 @@
+Autocomplete with Trie:
+----------------------
+
+In this problem we develop the trie data structure derived from a tree.
+
+Time complexity:O(A*N)
+For Searching and Inserting in the trie depends on the length of the word 'A' that’s being searched
+and also the number of total words, n, making the runtime of these operations O(a*n). 
+
+Space complexity:O(N)
+In worst case, when we have a word (or words), with no common characters between them.

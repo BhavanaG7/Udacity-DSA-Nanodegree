@@ -1,0 +1,18 @@
+HTTPRouter using a Trie:
+-----------------------
+
+Explanation:
+This problem is similar to problem 5 with some difference.
+first we should clean the path by removing occurencesof / with strip and then spit them into list. 
+
+Time Complexity:O(n)
+since,we iterate through the list. 
+
+Space Complexity: O(n) 
+A new TrieNode is created for each part of the path
+
+For Lookup Method
+Time Complexity: O(n)
+
+Space Complexity: O(1)
+No additional memory is allocated
